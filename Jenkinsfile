@@ -18,15 +18,6 @@ pipeline {
                 }
             }
         }
-        stage('Test') {
-            steps {
-                script {
-                    // Add any tests if necessary
-                    echo 'Running tests...'
-                }
-            }
-        }
-    }
     post {
         always {
             script {
